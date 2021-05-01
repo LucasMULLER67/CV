@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="icone.png">
+    <title>C.V. MULLER Lucas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="toggle">
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="info.html">Information</a></li>
+        <li><a href="travaux.html">Travaux personnels</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <section class="index">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+    <section class="titre">
+      <h1>Animation 3D</h1>
+    </section>
+    <section class="video">
+    <div class="video_container">
+      <div class="box box1">
+        <video src="map_travel.mp4" autoplay loop muted></video>
+        <div class="video_content">
+        </div>
+      </div>
+      <div class="box box2">
+        <video src="choco_video.mp4" autoplay loop muted></video>
+        <div class="video_content">
+        </div>
+      </div>
+      <div class="box box3">
+        <video src="focus.mp4" autoplay loop muted></video>
+        <div class="video_content">
+        </div>
+      </div>
+      <div class="box box4">
+        <video src="wood_cut_text.mp4" autoplay loop muted></video>
+        <div class="video_content">
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="titre2">
+      <h1>Dessin</h1>
+    </section>
+    <section class="photo">
+    <div class="period" id="period1">
+      <div class="boximg">
+        <div class="imgBx">
+          <img src="img1.png">
+          <h2>Cliquez pour fermer</h2>
+        </div>
+      </div>
+      <div class="boximg">
+        <div class="imgBx">
+          <img src="img2.png">
+          <h2>Cliquez pour fermer</h2>
+        </div>
+      </div>
+      <div class="boximg">
+      <div class="imgBx">
+        <img src="img3.png">
+        <h2>Cliquez pour fermer</h2>
+        </div>
+      </div>
+    <div class="boximg">
+      <div class="imgBx">
+        <img src="img4.png">
+        <h2>Cliquez pour fermer</h2>
+        </div>
+      </div>
+    <div class="boximg">
+      <div class="imgBx">
+        <img src="img5.png">
+        <h2>Cliquez pour fermer</h2>
+        </div>
+      </div>
+      <div class="boximg">
+        <div class="imgBx">
+          <img src="img6.png">
+          <h2>Cliquez pour fermer</h2>
+          </div>
+        </div>
+        <div class="boximg">
+          <div class="imgBx">
+            <img src="img7.png">
+            <h2>Cliquez pour fermer</h2>
+            </div>
+          </div>
+          <div class="boximg">
+            <div class="imgBx">
+              <img src="img8.png">
+              <h2>Cliquez pour fermer</h2>
+              </div>
+            </div>
+            <div class="boximg">
+              <div class="imgBx">
+                <img src="img9.png">
+                <h2>Cliquez pour fermer</h2>
+                </div>
+              </div>
+  </section>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+      let box = document.querySelectorAll('.box');
+      box.forEach(popup => popup.addEventListener('click', () => {
+        popup.classList.toggle('active');
+      }))
+    </script>
+  </body>
+</html>
